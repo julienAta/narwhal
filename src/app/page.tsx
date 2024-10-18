@@ -116,7 +116,7 @@ export default function NarwhalCoinPage() {
 
       {/* Footer */}
       <footer className="bg-gray-200 py-4 text-center text-sm">
-        <p>© 2023 Narwhal Coin. All rights reserved. Invest responsibly.</p>
+        <p>© 2024 Narwhal Coin. All rights reserved. Invest responsibly.</p>
       </footer>
     </div>
   )
