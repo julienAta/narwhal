@@ -56,15 +56,15 @@ export default function HeaderMain() {
               <AvatarImage alt="Profile picture" src="/dex.webp" />
             </Avatar>
           </Link>
-          {/* <Link
+          <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="https://t.me/michiportal"
+            href="https://t.me/narwhalcto"
           >
             <Avatar className="">
               <AvatarImage alt="Profile picture" src="/telegram.png" />
             </Avatar>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </div>
