@@ -20,8 +20,8 @@ export default function NarwhalCoinPage() {
             />
           </div>
           <p className="mx-auto mb-6 max-w-md text-xl">
-            Meet Narwhal, an adorable rescue puppy who was born with a 'tail' on
-            his head.
+            Meet Narwhal, an adorable rescue puppy who was born with a
+            &apos;tail&apos; on his head.
           </p>
           <p className="mb-6 inline-block rounded bg-gray-300 px-3 py-1 font-mono text-sm">
             CA: 4t8cP8su2yVDb7LhYvANMJoDTTXCFTxrFTqSyBRapump
