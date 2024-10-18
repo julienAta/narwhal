@@ -41,7 +41,7 @@ export function HeaderMain() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="https://twitter.com/michionsolana"
+            href="https://x.com/i/communities/1847304795410870625"
           >
             <Avatar className="">
               <AvatarImage alt="michi twitter" src="/twitter.avif" />
@@ -50,13 +50,13 @@ export function HeaderMain() {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            href="https://dexscreener.com/solana/gh8ers4yzkr3ukdvgvu8cqjfgzu4cu62mteg9bcj7ug6"
+            href="https://dexscreener.com/solana/8wxuytmunx3e21xcrccjgru6y29esj9ycya5ubjhbkwi"
           >
             <Avatar className="">
               <AvatarImage alt="Profile picture" src="/dex.webp" />
             </Avatar>
           </Link>
-          <Link
+          {/* <Link
             target="_blank"
             rel="noopener noreferrer"
             href="https://t.me/michiportal"
@@ -64,7 +64,7 @@ export function HeaderMain() {
             <Avatar className="">
               <AvatarImage alt="Profile picture" src="/telegram.png" />
             </Avatar>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,5 @@
 import { HeaderMain } from '@/components/component/header-main'
 import Tokenomics from '@/components/Tokenomics'
-import MoreMemes from '@/components/MoreMemes'
 
 export default function Index() {
   return (

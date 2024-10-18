@@ -6,7 +6,6 @@ import './globals.css'
 
 import ReactQueryProvider from '@/providers/ReactQueryProvider'
 import { NextSSRPlugin } from '@uploadthing/react/next-ssr-plugin'
-import { ourFileRouter } from './api/uploadthing/core'
 import { extractRouterConfig } from 'uploadthing/server'
 import Navbar from '@/components/Navbar'
 
@@ -33,15 +32,6 @@ export default function RootLayout({
       style={{ colorScheme: 'dark' }}
     >
       <body className="  text-foreground">
-        <NextSSRPlugin
-          /**
-           * The `extractRouterConfig` will extract **only** the route configs
-           * from the router to prevent additional information from being
-           * leaked to the client. The data passed to the client is the same
-           * as if you were to fetch `/api/uploadthing` directly.
-           */
-          routerConfig={extractRouterConfig(ourFileRouter)}
-        />
         <NextTopLoader showSpinner={false} height={2} color="#2acf80" />
         <ThemeProvider
           attribute="class"
