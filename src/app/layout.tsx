@@ -39,7 +39,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <ReactQueryProvider>
-            <main className="flex min-h-screen flex-col items-center">
+            <main className="">
               {/* <Navbar /> */}
               {children}
               <Toaster />
