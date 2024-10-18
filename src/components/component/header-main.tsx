@@ -22,8 +22,8 @@ export function HeaderMain() {
           />
         </div>
         <div className="mt-4 rounded-xl bg-[#fdf5e7] p-5 text-center  text-xl font-bold">
-          Meet Narwhal, an adorable rescue puppy who was born with a ‘tail' on
-          his head.
+          Meet Narwhal, an adorable rescue puppy who was born with a
+          &apos;tail&apos; on his head.
         </div>
         <div className="mt-4 hidden max-w-fit  text-right text-xl font-bold md:block">
           CA: 4t8cP8su2yVDb7LhYvANMJoDTTXCFTxrFTqSyBRapump
