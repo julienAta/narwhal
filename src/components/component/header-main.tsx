@@ -3,7 +3,7 @@ import { Button } from '../ui/button'
 import Link from 'next/link'
 import Image from 'next/image'
 
-export function HeaderMain() {
+export default function HeaderMain() {
   return (
     <div className="my-10 flex h-full w-full items-center justify-center    md:p-2 lg:p-4">
       <div className="flex flex-col items-center  space-y-14">
@@ -21,7 +21,7 @@ export function HeaderMain() {
             width="300"
           />
         </div>
-        <div className="mt-4 rounded-xl bg-[#fdf5e7] p-5 text-center  text-xl font-bold">
+        <div className="mt-4 max-w-md rounded-xl bg-[#fdf5e7] p-5 text-center  text-xl font-bold">
           Meet Narwhal, an adorable rescue puppy who was born with a
           &apos;tail&apos; on his head.
         </div>
