@@ -77,6 +77,11 @@ const HeaderMain = () => {
             src: '/dex.webp',
             alt: 'Dex Screener',
           },
+          {
+            href: 'https://t.me/narwhalcto',
+            src: '/telegram.png',
+            alt: 'Telegram',
+          },
         ].map((link, index) => (
           <motion.div
             key={index}
